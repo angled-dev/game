@@ -1,0 +1,61 @@
+.champion-panel {
+  display: grid;
+
+  grid-template:
+    'name name' 5%
+    'moves moves' 10%
+    'eq eq' 5%
+    'bpIcon charIcon' 10%
+    'equipment equipment' 50%
+    'HP HP' 5%
+    'stats stats' 15%
+    / 50% 50%;
+}
+
+.champion-panel__name {
+  border: 1px solid;
+  box-sizing: border-box;
+  grid-area: name;
+}
+
+.champion-panel__moves {
+  border: 1px solid;
+  box-sizing: border-box;
+  grid-area: moves;
+}
+
+.champion-panel__eq {
+  border: 1px solid;
+  box-sizing: border-box;
+  grid-area: eq;
+}
+
+.champion-panel__bpIcon {
+  border: 1px solid;
+  box-sizing: border-box;
+  grid-area: bpIcon;
+}
+
+.champion-panel__charIcon {
+  border: 1px solid;
+  box-sizing: border-box;
+  grid-area: charIcon;
+}
+
+.champion-panel__equipment {
+  border: 1px solid;
+  box-sizing: border-box;
+  grid-area: equipment;
+}
+
+.champion-panel__hp {
+  border: 1px solid;
+  box-sizing: border-box;
+  grid-area: HP;
+}
+
+.champion-panel__stats {
+  border: 1px solid;
+  box-sizing: border-box;
+  grid-area: stats;
+}
